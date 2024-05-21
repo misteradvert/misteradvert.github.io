@@ -1,0 +1,24 @@
+.main_div {
+  margin: 10px;
+}
+
+.main__card {
+  width: 350px;
+  margin: 0px 10px 10px 0px;
+  background-color: rgb(190, 240, 0);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main__card__button {
+  color: white;
+  background-color: rgb(116, 118, 121);
+}
+
+.main__posts {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: rgb(225, 240, 230);
+}
