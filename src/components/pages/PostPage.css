@@ -1,0 +1,58 @@
+.post__general {
+  margin: 10px;
+}
+
+.postcard {
+  display: flex;
+  border: 1px solid red;
+}
+
+.postcard__post__body {
+  width: 350px;
+  color: rgb(77, 78, 83);
+  background-color: rgb(190, 214, 0);
+}
+
+.postcard__input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: auto;
+  background-color: rgb(190, 214, 0);
+  margin-left: 20px;
+}
+
+.postcard__input__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.postcard__button {
+  color: white;
+  background-color: rgb(116, 118, 121);
+}
+
+.comments {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 3px solid brown;
+}
+
+.comments__cards {
+  width: 350px;
+  margin: 0px 20px 20px 0px;
+  color: rgb(77, 78, 83);
+  background-color: rgb(225, 240, 230);
+  border: 1px solid blue;
+}
+
+.comments__cards__body {
+  width: 300px;
+  margin: 10px;
+  border: 2px solid yellow;
+}
