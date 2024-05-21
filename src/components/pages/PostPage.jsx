@@ -7,7 +7,7 @@ import "./PostPage.css";
 export default function PostPage() {
   const [post, setPost] = useState(null);
   const [comments, setComments] = useState([]);
-  const { userId, postId } = useParams();
+  const { postId } = useParams();
   const [newTitle, setNewTitle] = useState("");
 
   useEffect(() => {
